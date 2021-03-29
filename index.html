@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Grocery list</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>My grocery list</h1>
+    <form id="groceryForm">
+      <div>
+        <label for="itemInput"></label>
+        <input id="itemInput" name="itemInput" type="text"></input>
+        <button id="button" type="button" class="btn-primary">Add item</button>
+      </div>
+      <button id="submitButton" type="submit" class="btn-success">Format!</button>
+    </form>
+    <div>
+      <ul id="grocery-list">
+      </ul>
+      <ul id="grocery-list-sorted">
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
